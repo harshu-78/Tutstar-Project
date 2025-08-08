@@ -1001,3 +1001,134 @@ h3 {
   display: none;
 }
 }
+
+
+/* subject page CSS */
+
+.top-img  {
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.mobile{
+  display: none;
+}
+.small-img img{
+   display: block;
+  margin-bottom: 20px;
+  margin-left: 29px;
+}
+.eiclass img {
+   display: block;
+  margin-bottom: 20px;
+  margin-left: 29px;
+}
+
+.contain {
+  max-width: 1200px;
+  margin: -16px auto;
+  margin-left: 15px;
+  padding: 0 20px;
+}
+
+.contain h2 {
+  font-size: 26px;
+  color: #c14af8;
+  margin-bottom: 5px;
+}
+
+.contain h3 {
+  font-size: 22px;
+  margin-bottom: 25px;
+  color: #333;
+}
+.pro-courses{
+  display: grid;
+   grid-template-columns: repeat(3, 1fr); 
+   gap: 10px;
+}
+.offer img{
+  padding-top: 1px;
+}
+.compulsory-courses{
+  display: flex;
+  gap: 20px;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.courses-grid img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.courses-grid img:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .contain {
+    padding: 0 10px;
+    margin-left: 0;
+  }
+
+  .pro-courses {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .compulsory-courses {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .courses-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .subject-pg-img img{
+    width: 81%;
+    margin-left: 38px;
+    margin-top: 17px;
+    padding-bottom: 20px;
+  }
+  .small-img img{
+    display: none;
+  }
+  .eiclass img{
+    margin-left: 31px;
+  }
+
+  .courses-grid img,
+  .pro-courses img,
+  .compulsory-courses img {
+    max-width: 90%;
+    margin-left: 20px;
+  }
+  .compulsory-courses {
+    display: none;
+  }
+  .comp{
+    display: none;
+  }
+  .top-img {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .contain h3{
+    font-size: 20px;
+    margin-left: 22px;
+  }
+  .contain h2{
+    margin-bottom: -23px;
+    margin-left: 20px;
+  }
+}
