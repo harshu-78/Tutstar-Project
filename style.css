@@ -550,6 +550,7 @@ footer {
   .info-card i {
     font-size: 24px;
     margin-bottom: 10px;
+    padding-bottom: 2px;
   }
   .right-image {
     width: 100%;
@@ -615,6 +616,9 @@ footer {
   }
   .newsletter-input{
     margin-right: 10px;
+  }
+  .newsletter-input button{
+    padding-left: 7px;
   }
    .footer-main {
     flex-direction: column;
