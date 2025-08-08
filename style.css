@@ -1132,3 +1132,113 @@ h3 {
     margin-left: 20px;
   }
 }
+
+
+/* about page CSS */
+
+
+.headerr-abo{
+  background-color: white;
+}
+.about-container-one{
+  display: flex;
+  flex-direction: row;
+}
+.abo-one{
+  width: 40%;
+  margin-left: 70px;
+  margin-right: 20px;
+}
+.about-container-one img{
+  width: 30%;
+  margin-left: 223px;
+}
+
+.about-container-two{
+  display: flex;
+  flex-direction: row;
+}
+.abo-two{
+  width: 40%;
+  margin-left:340px;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+.about-container-two img{
+  width: 30% ;
+  margin-top: -100px;
+}
+.abo-three{
+  margin-left: 190px;
+}
+.mile img{
+  width: 85%;
+  margin-left: 100px;
+}
+.milestone{
+  margin-top: 70px;
+}
+
+.query{
+  margin-left: 40%;
+  margin-top: 20px;
+}
+.heading{
+  margin-left: -20px ;
+  padding-bottom: 20px;
+}
+.heading span{
+  color:#492fb3;;
+}
+
+@media (max-width: 768px) {
+  .about-container-one,
+  .about-container-two {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-left: 38px;
+  }
+
+  .abo-one,
+  .abo-two {
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+
+  .about-container-one img,
+  .about-container-two img {
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+
+  .abo-three {
+    margin-left: 0;
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .abo-three img {
+    width: 64%;
+    margin: 0;
+  }
+
+  .abo-two h1 {
+    margin-left: 0 !important;
+  }
+  .milestone {
+    margin-left: -87px;
+  }
+  .mile img {
+    width: 76%;
+    margin-left: 100px;
+}
+.query {
+    margin-left: 22%;
+    margin-top: 20px;
+}
+}
