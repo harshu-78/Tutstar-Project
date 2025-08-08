@@ -850,3 +850,154 @@ footer {
     margin-left: 3px;
   }
 }
+
+
+
+/* Board Page CSS */
+
+
+.cbse-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+  max-width: 1100px;
+  margin: auto;
+  background: #fefefe;
+  border-radius: 20px;
+  gap: 40px;
+}
+
+.left-section {
+  flex: 1;
+}
+.highlight {
+  color: #492fb3;
+}
+
+.right-section {
+  flex: 1;
+  text-align: center;
+}
+
+.right-section h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.right-section .highlight {
+  color: #6c63ff;
+  font-weight: bold;
+}
+
+.right-section p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.right-section img {
+  width: 100%;
+  border-radius: 20px;
+}
+.mobile-res{
+  display: none;
+}
+h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  padding-bottom: 8px;
+}
+
+
+.junior-button {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+}
+.junior-button button{
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: 1px solid #6c63ff;
+  background: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+
+.senior-button {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+}
+.senior-button button{
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: 1px solid #6c63ff;
+  background: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+
+.secondary-button {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+}
+.secondary-button button{
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: 1px solid #6c63ff;
+  background: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+
+
+.junior-button button:hover,
+.junior-button button.active {
+  background: #6c63ff;
+  color: white;
+}
+.senior-button button:hover,
+.senior-button button.active {
+  background: #6c63ff;
+  color: white;
+}
+.secondary-button button:hover,
+.secondary-button button.active {
+  background: #6c63ff;
+  color: white;
+}
+
+@media (max-width:786px) {
+  .board-sub{
+    display: none;
+  }
+  .junior-button {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+}
+.science , .commerce {
+  display: none;
+}
+.right-section{
+  order: -1;
+  width: 100%;
+}
+.right-section img{
+  width: 100%;
+  margin: auto;
+}
+.mobile-res{
+  display: block;
+}
+.dekstop{
+  display: none;
+}
+}
